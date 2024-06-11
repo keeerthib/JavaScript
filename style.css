@@ -1,0 +1,47 @@
+.box {
+    height: 50px;
+    width: 100px;
+    border: 1px solid red;
+    margin: 5px;
+    text-align: center;
+    color: aqua;
+    background: rgb(2, 2, 53);
+}
+
+.events {
+    height: 50px;
+    width: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    background-color: red;
+    border: 1px solid black;
+    color: black;
+    margin: 6px;
+}
+
+.button1 {
+    color: black;
+    background-color: red;
+}
+
+#eventss {
+    height: 50px;
+    width: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    background-color: red;
+    border: 1px solid black;
+    color: black;
+    margin: 6px;
+}
+
+p {
+    font-style: italic;
+    background-color: aqua;
+}
+
+#btn {
+    font-size: large;
+    color: rgb(15, 4, 4) ;
+    background-color: rgb(12, 85, 85);
+}

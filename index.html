@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- UTF-8 (Unicode Transformation Format - 8-bit) -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <h2 id="hi"> Hello World! </h2>
+    <div>
+    <div class = "box" > First box </div>
+    <div class = "box" > Second box </div>
+    <div class = "box" > Third box </div>
+    </div>
+
+    <!-- inline event handling -->
+    <button onclick="console.log('button was clicked once'); alert('Hello!!')"> 
+        Click me!! 
+    </button>
+    <button ondblclick="console.log('button was clicked twice'); alert('Hello Hello!!')"> 
+        Click me twice!! 
+    </button>
+    <div class="events" onmouseover="console.log('This is a events box');">
+        Box for inline Events
+    </div>
+
+
+    <!-- Adding the events using js file-->
+    <button class="button1">
+        Submit!!!
+    </button>
+    <div id="eventss"> Box for events using JS</div>
+
+
+    <!-- for event object-->
+    <p> Hello World! from Keerthi Reddy </p>
+
+    <!-- For event listeners -->
+    <button id="btn"> event handlers </button>
+
+    <!-- For practie question -->
+    <button id="mode"> Change Mode </button>
+    
+    <script src="events.js"> </script>
+</body>
+</html>
